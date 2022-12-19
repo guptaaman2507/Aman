@@ -1,4 +1,4 @@
-#incomplete
+#
 def two_sum (*nums, target):
     nums= list(nums[0])
     for i in range (len(nums)):
@@ -33,8 +33,7 @@ def max_profit (*prices):
     b= max(prices)
     return b-a
     
-prices = [2,7,11,15]
-print(two_sum(prices, target=9))
+
   
 
 
